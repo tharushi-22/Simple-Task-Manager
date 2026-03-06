@@ -7,23 +7,6 @@ A simple full-stack task management application with a Node.js/Express backend a
 - **Node.js**: v18 or higher recommended
 - **MongoDB**: A running MongoDB instance (or MongoDB Atlas)
 
-## 🛠️Technologies Used
-
-### Frontend
-- **React**: UI library
-- **Vite**: Build tool and dev server
-- **Tailwind CSS**: Styling
-- **Axios**: API requests
-- **Lucide React**: Icons
-- **React Router**: Client-side routing
-
-### Backend
-- **Node.js**: Runtime environment
-- **Express**: Web framework
-- **MongoDB & Mongoose**: Database and ODM
-- **JWT**: Authentication
-- **Bcryptjs**: Password hashing
-
 ---
 
 ## 🚀Setup Instructions
@@ -65,6 +48,25 @@ A simple full-stack task management application with a Node.js/Express backend a
     ```bash
     npm run dev
     ```
+
+---
+
+## 🛠️Technologies Used
+
+### Frontend
+- **React**: UI library
+- **Vite**: Build tool and dev server
+- **Tailwind CSS**: Styling
+- **Axios**: API requests
+- **Lucide React**: Icons
+- **React Router**: Client-side routing
+
+### Backend
+- **Node.js**: Runtime environment
+- **Express**: Web framework
+- **MongoDB & Mongoose**: Database and ODM
+- **JWT**: Authentication
+- **Bcryptjs**: Password hashing
 
 ---
 

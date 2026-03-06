@@ -4,8 +4,6 @@ backend/node_modules/
 frontend/node_modules/
 
 # Environment Variables
-.env
-.env.local
 .env.*.local
 backend/.env
 frontend/.env
@@ -19,7 +17,6 @@ frontend/dist-ssr/
 build/
 
 # IDEs and Editors
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -37,3 +34,4 @@ yarn-debug.log*
 yarn-error.log*
 logs/
 *.log
+config.bat
