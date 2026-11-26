@@ -7,23 +7,6 @@ A simple full-stack task management application with a Node.js/Express backend a
 - **Node.js**: v18 or higher recommended
 - **MongoDB**: A running MongoDB instance (or MongoDB Atlas)
 
-## 🛠️Technologies Used
-
-### Frontend
-- **React**: UI library
-- **Vite**: Build tool and dev server
-- **Tailwind CSS**: Styling
-- **Axios**: API requests
-- **Lucide React**: Icons
-- **React Router**: Client-side routing
-
-### Backend
-- **Node.js**: Runtime environment
-- **Express**: Web framework
-- **MongoDB & Mongoose**: Database and ODM
-- **JWT**: Authentication
-- **Bcryptjs**: Password hashing
-
 ---
 
 ## 🚀Setup Instructions
@@ -39,12 +22,13 @@ A simple full-stack task management application with a Node.js/Express backend a
     npm install
     ```
 3.  Configure Environment Variables:
-    -   Create a `.env` file in the `backend` folder (if it doesn't exist).
-    -   Add the following variables:
+    -   Copy `backend/.env.example` to `backend/.env`.
+    -   Replace the placeholder values before starting the server:
         ```env
         PORT=5000
         MONGO_URI=your_mongodb_connection_string
-        JWT_SECRET=your_secret_key
+        JWT_SECRET=a_long_random_secret
+        FRONTEND_URL=http://localhost:3000
         ```
 4.  Start the backend server:
     ```bash
@@ -61,10 +45,33 @@ A simple full-stack task management application with a Node.js/Express backend a
     ```bash
     npm install
     ```
-3.  Start the frontend development server:
+3.  Optionally copy `.env.example` to `.env` and set `VITE_API_URL`:
+    ```env
+    VITE_API_URL=http://localhost:5000
+    ```
+4.  Start the frontend development server:
     ```bash
     npm run dev
     ```
+
+---
+
+## 🛠️Technologies Used
+
+### Frontend
+- **React**: UI library
+- **Vite**: Build tool and dev server
+- **Tailwind CSS**: Styling
+- **Axios**: API requests
+- **Lucide React**: Icons
+- **React Router**: Client-side routing
+
+### Backend
+- **Node.js**: Runtime environment
+- **Express**: Web framework
+- **MongoDB & Mongoose**: Database and ODM
+- **JWT**: Authentication
+- **Bcryptjs**: Password hashing
 
 ---
 
